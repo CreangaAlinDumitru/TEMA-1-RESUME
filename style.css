@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+* {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: rgb(233, 230, 227);
+    width: 100%;
+    height: auto;
+    color: black;
+}
+
+h3 {
+    text-transform: uppercase;
+    line-height: 2;
+    letter-spacing: 2;
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagine-header {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.header-nume {
+    letter-spacing: 2;
+    text-transform: uppercase;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+.header-job {
+    letter-spacing: 1;
+    padding-bottom: 0.5rem;
+}
+
+.header-contact {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0.5rem 0;
+    font-size: 14px;
+    justify-content: space-around;
+}
